@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+}
+
+.admin-panel,
+.thank-you-message {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.thank-you-message {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 20px;
+  border: 1px solid #d6e9c6;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.admin-panel {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+}
+
+.admin-panel h1 {
+  margin-bottom: 20px;
+}
+
+.text-view {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.push-alerts {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid rgb(5, 68, 157);
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.push-alerts:hover {
+  background-color: #0056b3;
+}
